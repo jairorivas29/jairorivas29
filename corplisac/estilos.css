@@ -1,0 +1,308 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para la sección de Navbar */
+
+.custom-navbar .nav-link {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.custom-navbar .nav-link:hover {
+  position: relative;
+  z-index: 0;
+}
+
+.navbar-nav {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  /* Ajusta este valor según tus necesidades */
+  background-color: #f4f4f4;
+}
+
+/* Estilos para la sección de inicio */
+.slider {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  z-index: 2;
+  margin-top: 70px;
+  padding: 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 500px;
+  /* ajusta este valor según tus necesidades */
+}
+
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  max-width: 700px;
+}
+.slide-content p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 5); /* Ajusta los valores según tus preferencias */
+}
+
+
+.slide-content h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.slide-content p {
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.swiper-pagination {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 20px;
+}
+
+/* Estilos para la sección nosotros */
+.nosotros {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+
+.nosotros h2,
+.nosotros h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.nosotros p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.nosotros ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nosotros li {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Estilos para las imágenes de la sección nosotros */
+.nosotros img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 0;
+  border-color: #ddd;
+  box-shadow: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #2b5b6d;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.contact-info i {
+  margin-right: 10px;
+}
+/* Estilos para la sección de sostenibilidad */
+.sostenibilidad {
+  background-image: url('img/5.jpeg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  background-color: transparent; /* Cambia el fondo a transparente */
+  color: #4b4b4b; /* Cambia el color de texto a blanco o el que prefieras */
+}
+
+.enlace-sostenibilidad {
+  font-size: 30px; /* Mantén el tamaño de fuente que prefieras */
+  color: #000000; /* Cambia el color de enlace a blanco o el que prefieras */
+  text-decoration: none;
+  border: 3px solid #000000; /* Agrega un borde blanco */
+  padding: 10px 20px; /* Ajusta el espaciado interno para que parezca un botón */
+  border-radius: 5px; /* Agrega esquinas redondeadas */
+  background-color: transparent; /* Fondo transparente */
+  transition: background-color 0.3s ease; /* Agrega una transición suave */
+}
+
+.enlace-sostenibilidad:hover {
+  background-color: rgba(117, 181, 255, 0.3); /* Cambia el color de fondo al pasar el ratón */
+  color: #fff; /* Cambia el color de texto en hover si es necesario */
+}
+
+
+
+.footer-logo img {
+  max-width: 270px;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-nav h4 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-nav li {
+  margin-bottom: 5px;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #a4a4a4;
+}
+
+/* Estilos para el texto de derechos de autor */
+.footer-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+}
+
+/*Adaptacion de Section a las pantallas*/
+
+@media screen and (max-width: 767px) {
+  /* CSS rules for screens smaller than 768 pixels */
+  section {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules for screens between 768 and 991 pixels */
+  section {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* CSS rules for screens between 992 and 1199 pixels */
+  section {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* CSS rules for screens larger than 1200 pixels */
+  section {
+    width: 100%;
+    height: auto;
+  }
+}
